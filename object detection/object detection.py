@@ -7,7 +7,7 @@ import time
 cap = cv2.VideoCapture(0)  # For Webcam
 # cap.set(3, 1280)
 # cap.set(4, 720)
-#cap = cv2.VideoCapture("http://192.168.0.122:81/stream")  # For Video
+#cap = cv2.VideoCapture("/stream")  # For Video
 
 
 model = YOLO("../Yolo-Weights/yolov8l.pt")
